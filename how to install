@@ -1,0 +1,4 @@
+01. Instal LDM
+02. add the xpi file
+03. add HD video packages [sudo apt install ffmpeg]
+04. nstall wmctrl [sudo apt install wmctrl]

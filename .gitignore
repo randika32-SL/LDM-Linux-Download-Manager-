@@ -1,0 +1,45 @@
+# --- Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+
+# --- Build output (create with build-deb.sh / build-rpm.sh / makepkg)
+*.deb
+*.rpm
+*.pkg.tar.*
+*.xpi
+*.crx
+*.zip
+*.tar.gz
+dist/
+build/
+pkg/
+rpmbuild/
+
+# --- Secrets: never commit the extension signing key or credentials
+*.pem
+*.key
+.env
+
+# --- LDM runtime data (created when you run the app from the source tree)
+downloads.json
+settings.json
+ldm.log
+*.ldm
+inbox/
+tmp/
+
+# --- Editors / OS
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
+Thumbs.db
+
+# --- Node tooling (only used for testing the extension)
+node_modules/
